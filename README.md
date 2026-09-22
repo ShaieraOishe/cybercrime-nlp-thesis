@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 1. Project Overview
+## 1. Project Overview
 
 Cybercrime complaints filed by victims across regulatory portals and reporting centers are characteristically unstructured, noisy, emotionally charged, and high-volume. Law enforcement agencies and Computer Emergency Response Teams (CERTs) face two primary operational bottlenecks:
 1. **Automated Triage & Routing (Classification):** Accurately categorizing incoming incident narratives into actionable crime typologies (e.g., Financial Fraud, Phishing, Sextortion, Identity Threat, Cyber Harassment) to dispatch cases to specialized investigative units.
@@ -15,7 +15,7 @@ This repository implements the end-to-end experimental framework comparing **Tra
 
 ---
 
-## 🔬 2. Research Questions (RQs)
+## 2. Research Questions (RQs)
 
 - **RQ1 (Classification Performance):** How do modern Transformer architectures (DistilBERT, BERT, RoBERTa, DeBERTa-v3, SecBERT) compare against classical NLP baselines (TF-IDF + LinearSVC / Logistic Regression / LightGBM) across class-imbalanced cybercrime narratives?
 - **RQ2 (Semantic Retrieval Effectiveness):** How does dense neural retrieval (Sentence-BERT / `all-mpnet-base-v2`, `bge-base-en-v1.5`) compare with lexical search (BM25) and hybrid fusion (Reciprocal Rank Fusion) in surfacing semantically linked cybercrime complaints?
@@ -24,7 +24,7 @@ This repository implements the end-to-end experimental framework comparing **Tra
 
 ---
 
-## 🗺️ 3. Unified 7-Class Cybercrime Taxonomy
+## 3. Unified 7-Class Cybercrime Taxonomy
 
 | # | Category Identifier | Primary Integrated Sources | Modality & Description |
 | :---: | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ This repository implements the end-to-end experimental framework comparing **Tra
 
 ---
 
-## 🏗️ 4. Repository Structure
+## 4. Repository Structure
 
 ```text
 cybercrime-nlp-thesis/
@@ -71,7 +71,7 @@ cybercrime-nlp-thesis/
 
 ---
 
-## 🚀 5. Quick Start & Execution
+## 5. Quick Start & Execution
 
 ### 1. Prerequisites & Environment Setup
 ```bash
