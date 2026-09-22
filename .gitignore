@@ -10,17 +10,11 @@ build/
 dist/
 *.egg-info/
 
-# Jupyter Notebooks
+# Jupyter Notebooks Checkpoints
 .ipynb_checkpoints/
 *-checkpoint.ipynb
 
-# Data & Model Weights
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/embeddings/*
-!data/embeddings/.gitkeep
+# Model Weights & Heavy Checkpoints (large binary files)
 models/saved/*
 !models/saved/.gitkeep
 checkpoints/
@@ -29,7 +23,7 @@ checkpoints/
 *.onnx
 *.safetensors
 
-# macOS & System
+# macOS & System IDE
 .DS_Store
 .env
 .vscode/
