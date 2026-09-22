@@ -1,7 +1,7 @@
 # Automated Cybercrime Complaint Classification and Semantic Retrieval
 
 > **A Comparative Study of Traditional NLP and Transformer-Based Models**  
-> *Master's / Undergraduate Thesis Research Repository*
+> 
 
 ---
 
