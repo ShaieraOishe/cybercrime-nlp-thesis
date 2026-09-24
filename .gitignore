@@ -28,3 +28,17 @@ checkpoints/
 .env
 .vscode/
 .idea/
+.cache/
+
+# Serialized checkpoints
+*.joblib
+*.npy
+corpus_dense_*
+data/processed/retrieval_7class/corpus_dense_*
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+models/transformers/*
+!models/transformers/.gitkeep
+
+
+
